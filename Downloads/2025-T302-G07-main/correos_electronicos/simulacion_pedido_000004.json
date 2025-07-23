@@ -1,0 +1,33 @@
+{
+    "timestamp": "2025-07-12 01:46:34",
+    "to": "jeanguerrero04@gmail.com",
+    "name": "Yeaan",
+    "order_number": "000004",
+    "order_data": {
+        "id": 4,
+        "user_id": 2,
+        "total_amount": "649.99",
+        "status": "pending",
+        "shipping_address": "Calle carabobo, cruce con miranda\r\nEdificio Icabaru",
+        "billing_name": "Yeaan",
+        "billing_phone": "04126380255",
+        "billing_email": "jeanguerrero04@gmail.com",
+        "billing_city": "Los teques",
+        "billing_postal_code": "1201",
+        "notes": "",
+        "created_at": "2025-07-11 19:46:34",
+        "updated_at": "2025-07-11 19:46:34"
+    },
+    "order_items": [
+        {
+            "id": 4,
+            "order_id": 4,
+            "product_id": 10,
+            "quantity": 1,
+            "price": "649.99",
+            "name": "Tablet iPad Air",
+            "image_url": null
+        }
+    ],
+    "status": "simulated"
+}

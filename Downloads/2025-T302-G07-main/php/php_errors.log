@@ -1,0 +1,35 @@
+[22-Jul-2025 23:44:00 Europe/Berlin] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\test_connection.php on line 77
+[22-Jul-2025 23:44:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\test_connection.php:77
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\test_connection.php on line 77
+[22-Jul-2025 17:44:52 America/Caracas] PHP Warning:  require_once(includes/functions.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\test_connection.php on line 140
+[22-Jul-2025 17:44:52 America/Caracas] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/functions.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\test_connection.php:140
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\test_connection.php on line 140
+[22-Jul-2025 23:45:32 Europe/Berlin] PHP Warning:  require_once(includes/functions.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:45:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/functions.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:45:37 Europe/Berlin] PHP Warning:  require_once(includes/functions.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:45:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/functions.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:45:41 Europe/Berlin] PHP Warning:  require_once(includes/functions.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:45:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/functions.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:46:07 Europe/Berlin] PHP Warning:  require_once(includes/functions.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:46:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/functions.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:46:10 Europe/Berlin] PHP Warning:  require_once(includes/functions.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16
+[22-Jul-2025 23:46:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/functions.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\2025-T302-G07-main\Discarchar\php\check_session.php on line 16

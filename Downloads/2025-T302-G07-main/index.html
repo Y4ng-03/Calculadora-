@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discarchar - Tienda Online</title>
+    <meta http-equiv="refresh" content="0; url=shop.php">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .redirect-container {
+            max-width: 500px;
+            padding: 40px;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        
+        .message {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .link {
+            color: white;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="redirect-container">
+        <div class="logo">Discarchar</div>
+        <div class="spinner"></div>
+        <div class="message">Redirigiendo a la tienda...</div>
+        <p>Si no eres redirigido automáticamente, <a href="shop.php" class="link">haz clic aquí</a></p>
+    </div>
+</body>
+</html> 

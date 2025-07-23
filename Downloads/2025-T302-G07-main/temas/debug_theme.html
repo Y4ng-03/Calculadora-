@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Tema - Discarchar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="js/theme.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Debug del Sistema de Tema</h1>
+        
+        <div class="card">
+            <h2>Estado Actual</h2>
+            <p>Tema actual: <strong id="current-theme">Cargando...</strong></p>
+            <p>LocalStorage: <strong id="localstorage-value">Cargando...</strong></p>
+            <p>Data-theme: <strong id="data-theme-value">Cargando...</strong></p>
+        </div>
+        
+        <div class="card">
+            <h2>Controles de Debug</h2>
+            <button onclick="forceDark()" class="btn btn-primary">Forzar Oscuro</button>
+            <button onclick="forceLight()" class="btn btn-secondary">Forzar Claro</button>
+            <button onclick="clearStorage()" class="btn btn-warning">Limpiar Storage</button>
+            <button onclick="reloadPage()" class="btn btn-outline">Recargar Página</button>
+        </div>
+        
+        <div class="card">
+            <h2>Elementos de Prueba</h2>
+            <button class="btn btn-primary">Botón Primario</button>
+            <button class="btn btn-secondary">Botón Secundario</button>
+            <input type="text" placeholder="Campo de texto" style="margin: 10px 0;">
+        </div>
+    </div>
+
+    <script>
+        // Función para actualizar la información de debug
+        function updateDebugInfo() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const localStorageValue = localStorage.getItem('theme');
+            
+            document.getElementById('current-theme').textContent = currentTheme || 'No definido';
+            document.getElementById('localstorage-value').textContent = localStorageValue || 'No definido';
+            document.getElementById('data-theme-value').textContent = currentTheme || 'No definido';
+        }
+        
+        // Funciones de debug
+        function forceDark() {
+            window.themeToggle.setTheme('dark');
+            updateDebugInfo();
+        }
+        
+        function forceLight() {
+            window.themeToggle.setTheme('light');
+            updateDebugInfo();
+        }
+        
+        function clearStorage() {
+            localStorage.removeItem('theme');
+            updateDebugInfo();
+        }
+        
+        function reloadPage() {
+            location.reload();
+        }
+        
+        // Actualizar información cada segundo
+        setInterval(updateDebugInfo, 1000);
+        
+        // Actualizar información inicial
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(updateDebugInfo, 500);
+        });
+        
+        // Observar cambios en el atributo data-theme
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+                    console.log('Tema cambiado a:', mutation.target.getAttribute('data-theme'));
+                    updateDebugInfo();
+                }
+            });
+        });
+        
+        observer.observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ['data-theme']
+        });
+    </script>
+</body>
+</html> 

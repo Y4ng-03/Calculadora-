@@ -1,0 +1,40 @@
+# Configuración para Apache
+AddType application/x-httpd-php .php
+AddType application/x-httpd-php-source .phps
+
+# Habilitar reescritura de URLs
+RewriteEngine On
+
+# Configurar página por defecto
+DirectoryIndex index.html index.php
+
+# Configurar tipos MIME
+<IfModule mod_mime.c>
+    AddType application/x-httpd-php .php
+    AddType application/x-httpd-php-source .phps
+</IfModule>
+
+# Configurar PHP
+<IfModule mod_php.c>
+    php_flag display_errors On
+    php_flag log_errors On
+    php_value error_log "php_errors.log"
+</IfModule>
+
+# Configurar CORS para API
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
+
+# Configurar seguridad básica
+<Files "*.sql">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "*.log">
+    Order allow,deny
+    Deny from all
+</Files> 

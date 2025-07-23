@@ -1,0 +1,48 @@
+[12-Jul-2025 01:00:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'discarchar.users' doesn't exist in C:\xampp\htdocs\proyectjean\register.php:26
+Stack trace:
+#0 C:\xampp\htdocs\proyectjean\register.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\proyectjean\register.php on line 26
+[12-Jul-2025 01:00:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'discarchar.users' doesn't exist in C:\xampp\htdocs\proyectjean\login.php:16
+Stack trace:
+#0 C:\xampp\htdocs\proyectjean\login.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\proyectjean\login.php on line 16
+[12-Jul-2025 01:40:34 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\proyectjean\includes\functions.php on line 118
+2025-07-13 01:27:02 - Error en checkout para usuario 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing_name' in 'field list'
+2025-07-13 01:27:04 - Error en checkout para usuario 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing_name' in 'field list'
+[13-Jul-2025 01:51:57 Europe/Berlin] PHP Warning:  Undefined variable $isLoggedIn in C:\xampp\htdocs\proyectjean\shop.php on line 98
+[13-Jul-2025 01:51:59 Europe/Berlin] PHP Warning:  Undefined variable $isLoggedIn in C:\xampp\htdocs\proyectjean\shop.php on line 98
+[13-Jul-2025 01:52:01 Europe/Berlin] PHP Warning:  Undefined variable $isLoggedIn in C:\xampp\htdocs\proyectjean\shop.php on line 98
+[13-Jul-2025 02:40:28 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:40:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:42:32 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:42:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:43:23 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:43:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:43:32 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:43:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:45:31 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:45:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:07 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:21 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[13-Jul-2025 02:46:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyectjean\checkout.php on line 5
+[18-Jul-2025 16:12:27 America/Caracas] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Discarchar\includes\functions.php on line 2
+[18-Jul-2025 16:29:21 America/Caracas] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Discarchar\includes\functions.php on line 2
+[18-Jul-2025 16:31:26 America/Caracas] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Discarchar\includes\functions.php on line 2
+[18-Jul-2025 16:31:28 America/Caracas] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Discarchar\includes\functions.php on line 2
+[18-Jul-2025 16:32:38 America/Caracas] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Discarchar\includes\functions.php on line 2
+[18-Jul-2025 16:38:32 America/Caracas] PHP Fatal error:  Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in C:\xampp\htdocs\Discarchar\shop.php:13
+Stack trace:
+#0 C:\xampp\htdocs\Discarchar\shop.php(13): explode(',', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\Discarchar\shop.php on line 13

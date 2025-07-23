@@ -1,0 +1,163 @@
+[12-Jul-2025 01:20:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\proyectjean\api\user_operations.php on line 151
+[13-Jul-2025 03:36:50 Europe/Berlin] DEBUG: POST request - Action: delete_user, Data: Array
+(
+    [action] => delete_user
+    [user_id] => 3
+)
+
+[13-Jul-2025 03:38:28 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 8
+    [status] => delivered
+)
+
+[13-Jul-2025 03:38:28 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 8, Status: delivered
+[13-Jul-2025 03:39:47 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 8
+    [status] => delivered
+)
+
+[13-Jul-2025 03:39:47 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 8, Status: delivered
+[13-Jul-2025 03:39:52 Europe/Berlin] DEBUG: POST request - Action: delete_user, Data: Array
+(
+    [action] => delete_user
+    [user_id] => 3
+)
+
+[13-Jul-2025 03:39:58 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 8
+    [status] => delivered
+)
+
+[13-Jul-2025 03:39:58 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 8, Status: delivered
+[13-Jul-2025 03:40:17 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 8
+    [status] => delivered
+)
+
+[13-Jul-2025 03:40:17 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 8, Status: delivered
+[13-Jul-2025 03:42:12 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 8
+    [status] => delivered
+)
+
+[13-Jul-2025 03:42:12 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 8, Status: delivered
+[13-Jul-2025 03:42:34 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 4
+    [status] => cancelled
+)
+
+[13-Jul-2025 03:42:34 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 4, Status: cancelled
+[13-Jul-2025 03:42:38 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 3
+    [status] => cancelled
+)
+
+[13-Jul-2025 03:42:38 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 3, Status: cancelled
+[13-Jul-2025 03:42:43 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 5
+    [status] => shipped
+)
+
+[13-Jul-2025 03:42:43 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 5, Status: shipped
+[13-Jul-2025 03:42:46 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 6
+    [status] => shipped
+)
+
+[13-Jul-2025 03:42:46 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 6, Status: shipped
+[13-Jul-2025 03:42:53 Europe/Berlin] DEBUG: POST request - Action: delete_user, Data: Array
+(
+    [action] => delete_user
+    [user_id] => 2
+)
+
+[13-Jul-2025 03:42:59 Europe/Berlin] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 10
+    [status] => delivered
+)
+
+[13-Jul-2025 03:42:59 Europe/Berlin] DEBUG: updateOrderStatus called - OrderId: 10, Status: delivered
+[13-Jul-2025 03:43:05 Europe/Berlin] DEBUG: POST request - Action: delete_user, Data: Array
+(
+    [action] => delete_user
+    [user_id] => 2
+)
+
+[13-Jul-2025 03:46:21 Europe/Berlin] DEBUG: POST request - Action: delete_user, Data: Array
+(
+    [action] => delete_user
+    [user_id] => 2
+)
+
+[13-Jul-2025 03:46:51 Europe/Berlin] DEBUG: POST request - Action: delete_user, Data: Array
+(
+    [action] => delete_user
+    [user_id] => 3
+)
+
+[13-Jul-2025 03:51:09 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\proyectjean\includes\functions.php on line 2
+[13-Jul-2025 03:51:18 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\proyectjean\includes\functions.php on line 2
+[18-Jul-2025 17:33:52 America/Caracas] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 10
+    [status] => delivered
+)
+
+[18-Jul-2025 17:33:52 America/Caracas] DEBUG: updateOrderStatus called - OrderId: 10, Status: delivered
+[18-Jul-2025 17:43:00 America/Caracas] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 10
+    [status] => cancelled
+)
+
+[18-Jul-2025 17:43:00 America/Caracas] DEBUG: updateOrderStatus called - OrderId: 10, Status: cancelled
+[18-Jul-2025 23:06:37 America/Caracas] DEBUG: POST request - Action: update_product, Data: Array
+(
+    [name] => a1
+    [description] => ws
+    [price] => 3.50
+    [stock_quantity] => 15
+    [category_id] => 5
+    [is_active] => on
+    [action] => update_product
+    [product_id] => 17
+)
+
+[18-Jul-2025 23:07:02 America/Caracas] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 10
+    [status] => delivered
+)
+
+[18-Jul-2025 23:07:02 America/Caracas] DEBUG: updateOrderStatus called - OrderId: 10, Status: delivered
+[18-Jul-2025 23:07:09 America/Caracas] DEBUG: POST request - Action: update_order_status, Data: Array
+(
+    [action] => update_order_status
+    [order_id] => 7
+    [status] => cancelled
+)
+
+[18-Jul-2025 23:07:09 America/Caracas] DEBUG: updateOrderStatus called - OrderId: 7, Status: cancelled

@@ -1,0 +1,18 @@
+2025-07-12 01:40:34 - Email falló a jeanguerrero04@gmail.com para pedido #000003
+2025-07-12 01:42:55 - Email falló a jeanguerrero04@gmail.com para pedido #123456
+2025-07-12 01:43:47 - Email simulado guardado en emails/simulacion_pedido_123456.json para pedido #123456
+2025-07-12 01:46:34 - Email simulado guardado en emails/simulacion_pedido_000004.json para pedido #000004
+2025-07-12 02:00:59 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #999999
+2025-07-12 02:09:07 - Email ENVIADO a admin@discarchar.com para pedido #888888
+2025-07-12 02:10:14 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000005
+2025-07-12 02:18:26 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000006
+2025-07-13 01:27:01 - Email ENVIADO a test@example.com para pedido #999999
+2025-07-13 01:27:46 - Email ENVIADO a test@example.com para pedido #999999
+2025-07-13 01:28:12 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000003
+2025-07-13 01:28:44 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000004
+2025-07-13 01:33:44 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000005
+2025-07-13 01:39:39 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000006
+2025-07-13 01:44:33 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000007
+2025-07-13 02:23:39 - Email ENVIADO a vitotobb07@gmail.com para pedido #000008
+2025-07-13 02:48:26 - Email ENVIADO a dcrm2004@gmail.com para pedido #000009
+2025-07-13 03:01:12 - Email ENVIADO a jeanguerrero04@gmail.com para pedido #000010

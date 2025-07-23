@@ -1,0 +1,8 @@
+[14-Jul-2025 05:32:07 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Discarchar\config\database_shared.php on line 36
+[14-Jul-2025 05:32:07 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Discarchar\config\database_shared.php on line 36
+[14-Jul-2025 05:32:07 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Discarchar\config\database_shared.php on line 36
+[14-Jul-2025 05:32:07 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Discarchar\config\database_shared.php on line 36
+[14-Jul-2025 05:32:07 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Discarchar\config\database_shared.php on line 36
+[14-Jul-2025 05:32:07 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\Discarchar\config\database_shared.php on line 36
+[14-Jul-2025 05:32:07 Europe/Berlin] Error creando tabla: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`discarchar`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE SET NULL)
+[14-Jul-2025 05:32:07 Europe/Berlin] Error creando tabla: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'username'

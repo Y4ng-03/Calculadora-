@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Tema - Discarchar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="js/theme.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Prueba del Sistema de Tema</h1>
+        <p>Esta es una página de prueba para verificar que el toggle de tema funciona correctamente.</p>
+        
+        <div class="card">
+            <h2>Información del Tema</h2>
+            <p>Tema actual: <span id="current-theme">Oscuro</span></p>
+            <p>Haz clic en el botón de la esquina superior derecha para cambiar el tema.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Elementos de Prueba</h2>
+            <button class="btn btn-primary">Botón Primario</button>
+            <button class="btn btn-secondary">Botón Secundario</button>
+            <button class="btn btn-warning">Botón Advertencia</button>
+            <button class="btn btn-outline">Botón Outline</button>
+        </div>
+        
+        <div class="card">
+            <h2>Formulario de Prueba</h2>
+            <form>
+                <div class="form-group">
+                    <label for="test-input">Campo de texto:</label>
+                    <input type="text" id="test-input" placeholder="Escribe algo aquí...">
+                </div>
+                <div class="form-group">
+                    <label for="test-select">Selector:</label>
+                    <select id="test-select">
+                        <option>Opción 1</option>
+                        <option>Opción 2</option>
+                        <option>Opción 3</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        
+        <div class="card">
+            <h2>Tabla de Prueba</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                        <th>Columna 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                        <td>Dato 3</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 4</td>
+                        <td>Dato 5</td>
+                        <td>Dato 6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Actualizar el texto del tema actual
+        function updateThemeText() {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const themeText = document.getElementById('current-theme');
+            themeText.textContent = theme === 'light' ? 'Claro' : 'Oscuro';
+        }
+        
+        // Observar cambios en el atributo data-theme
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+                    updateThemeText();
+                }
+            });
+        });
+        
+        observer.observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ['data-theme']
+        });
+        
+        // Actualizar texto inicial
+        document.addEventListener('DOMContentLoaded', updateThemeText);
+    </script>
+</body>
+</html> 
